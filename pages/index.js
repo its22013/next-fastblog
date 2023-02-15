@@ -4,7 +4,7 @@ import Hero from '../components/hero'
 export default function Home () {
   return (
     <Container>
-      <Hero imageOn />
+      <Hero title='CUBE' subtitle='アウトプットしていくサイト' imageOn />
     </Container>
   )
 }
