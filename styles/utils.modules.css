@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-/* 横並び（基本形） */
+/* 横並び */
 .sideBySide {
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
   }
 }
 
-/* 横並び（中央揃え） */
+/* 横並び */
 .sideBySideCenter {
   composes: sideBySide;
   align-items: center;
@@ -28,5 +28,5 @@
 @media (min-width: 768px) {
   .sideBySideCenter {
     text-align: left;
-  }
+   }
 }
